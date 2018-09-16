@@ -9,4 +9,9 @@
 class ImageModule
 {
 
+   public $image_url = "";
+   public $image_status = true;
+   public $image_id = 00;
+
+
 }
