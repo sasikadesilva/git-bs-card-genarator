@@ -15,7 +15,7 @@ require_once("BusinessCard.php");
 $newCard = new BusinessCard();
 //$newCard->clearMemory();
 $newCard->template = 1;
-$newCard->name = "Dinuka De Silva";
+$newCard->name = "sasika de silva";
 $newCard->url = "//http:www.google.com";
 $newCard->email = "dinuka@gmail.com";
 $newCard->telePhone = 77878788;
