@@ -22,4 +22,9 @@ class ImageModule
    }
 
 
+   public function readBarcode(){
+       
+   }
+
+
 }
