@@ -13,5 +13,13 @@ class ImageModule
    public $image_status = true;
    public $image_id = 00;
 
+   public function addNewImage(HttpResponse $request){
+       $date = new DateTime();
+       $time = $date->getTimezone();
+
+       $image = new ImageModule();
+       $image->image_url  = "googlr.com";
+   }
+
 
 }
