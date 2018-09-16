@@ -22,8 +22,11 @@ class ImageModule
    }
 
 
-   public function readBarcode(){
-       
+   public function readBarcode($name,$id){
+       $barcode_name = $name;
+       $barcode_id = $id;
+
+       return $barcode_name." ".$id;
    }
 
 
