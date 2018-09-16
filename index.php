@@ -15,11 +15,11 @@ require_once("BusinessCard.php");
 $newCard = new BusinessCard();
 //$newCard->clearMemory();
 $newCard->template = 1;
-$newCard->name = "Example User full name  ";
+$newCard->name = "Dinuka De Silva";
 $newCard->url = "//http:www.google.com";
-$newCard->email = "email@gmail.com";
-$newCard->telePhone = 123456789;
-$newCard->setAddress("address line1","address line2","address line3");
+$newCard->email = "dinuka@gmail.com";
+$newCard->telePhone = 77878788;
+$newCard->setAddress("No:8D","Station Road","Beruwala");
 $newCard->create();
 
 echo "<br><br>";
