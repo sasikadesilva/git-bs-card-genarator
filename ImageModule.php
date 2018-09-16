@@ -13,6 +13,9 @@ class ImageModule
    public $image_status = true;
    public $image_id = 00;
 
+    /***
+     * @param HttpResponse $request
+     */
    public function addNewImage(HttpResponse $request){
        $date = new DateTime();
        $time = $date->getTimezone();
@@ -21,7 +24,11 @@ class ImageModule
        $image->image_url  = "googlr.com";
    }
 
-
+    /***
+     * @param $name
+     * @param $id
+     * @return string
+     */
    public function readBarcode($name,$id){
        $barcode_name = $name;
        $barcode_id = $id;
@@ -30,4 +37,7 @@ class ImageModule
    }
 
 
+   public  function  changePrivacy(){
+       
+   }
 }
