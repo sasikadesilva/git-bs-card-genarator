@@ -24,6 +24,20 @@ $newCard->create();
 
 echo "<br><br>";
 
+/***
+ * example 1
+ */
+$newCard = new BusinessCard();
+//$newCard->clearMemory();
+$newCard->template = 1;
+$newCard->name = "Dinuka De Silva";
+$newCard->url = "//http:www.google.com";
+$newCard->email = "dinuka@gmail.com";
+$newCard->telePhone = 77878788;
+$newCard->setAddress("No:8D","Station Road","Beruwala");
+$newCard->create();
+
+echo "<br><br>";
 
 /***
  * example 1
