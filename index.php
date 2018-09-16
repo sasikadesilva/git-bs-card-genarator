@@ -30,7 +30,7 @@ echo "<br><br>";
 $newCard = new BusinessCard();
 //$newCard->clearMemory();
 $newCard->template = 1;
-$newCard->name = "Dinuka De Silva";
+$newCard->name = "enty user 1";
 $newCard->url = "//http:www.google.com";
 $newCard->email = "dinuka@gmail.com";
 $newCard->telePhone = 77878788;
